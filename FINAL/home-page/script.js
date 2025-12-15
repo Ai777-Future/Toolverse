@@ -20,5 +20,5 @@ seven.addEventListener("click", function () {
 });
 
 Home.addEventListener("click", function () {
-  window.location.href = "../home-page/index.html";
+  window.location.href = "/FINAL/home-page/index.html";
 });
