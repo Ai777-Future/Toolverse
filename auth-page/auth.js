@@ -32,7 +32,7 @@ btn.addEventListener("click", function () {
     result.innerHTML = "✅ Login Successful";
 
     setTimeout(function () {
-      window.location.href = "/FINAL/home-page/index.html";
+      window.location.href = "./home-page/index.html";
     }, 800);
   } else {
     result.style.color = "red";

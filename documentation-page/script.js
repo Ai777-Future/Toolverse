@@ -3,10 +3,10 @@
 const seven = document.getElementById("Log-out");
 
 seven.addEventListener("click", function () {
-  window.location.href = "../auth-page/auth.html";
+  window.location.href = "/index.html";
 });
 
 Home.addEventListener("click", function () {
-  window.location.href = "/FINAL/home-page/index.html";
+  window.location.href = "/home-page/index.html";
 });
 

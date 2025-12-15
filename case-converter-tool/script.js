@@ -119,9 +119,9 @@ six.addEventListener("click", function () {
 });
 
 seven.addEventListener("click", function () {
-  window.location.href = "../auth-page/auth.html";
+  window.location.href = "./index.html";
 });
 
 Home.addEventListener("click", function () {
-  window.location.href = "../home-page/index.html";
+  window.location.href = "./home-page/index.html";
 });
