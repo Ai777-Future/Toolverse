@@ -1,0 +1,171 @@
+/* ---------- Responsive for Large Laptops (max-width: 1200px) ---------- */
+@media (max-width: 1200px) {
+
+    .user-Result.box,
+  .result-area {
+    width: 75%;
+  }
+
+  .foot-bottom {
+    gap: 250px;
+  }
+
+  .element img,
+  .element-2 img {
+    width: 280px;
+  }
+}
+
+/* ---------- Responsive for Tablets (max-width: 992px) ---------- */
+@media (max-width: 992px) {
+  header {
+    padding: 0 30px;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  nav ul {
+    gap: 20px;
+  }
+
+  .user-Result.box,
+  .result-area {
+    width: 80%;
+  }
+
+  .buttons {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  textarea {
+    width: 80%;
+  }
+
+  .foot-bottom {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .info-box {
+    width: 60%;
+  }
+
+  .element img,
+  .element-2 img {
+    width: 220px;
+  }
+}
+
+/* ---------- Responsive for Mobiles (max-width: 768px) ---------- */
+@media (max-width: 768px) {
+  .one {
+    font-size: 24px;
+  }
+
+  .two-span {
+    font-size: 13px;
+  }
+
+  textarea {
+    width: 90%;
+    height: 200px;
+  }
+
+  .user-Result.box,
+  .result-area {
+    width: 90%;
+    height: auto;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  button {
+    width: 90%;
+  }
+
+  .foot-heading {
+    padding: 40px 10px;
+  }
+
+  .foot-heading h3 {
+    font-size: 22px;
+  }
+
+  .info-box {
+    width: 80%;
+  }
+
+  .foot-bottom {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .social-icon > a {
+    padding: 6px;
+    margin: 4px;
+  }
+
+  .element img,
+  .element-2 img {
+    display: none;
+  }
+}
+
+/* ---------- Responsive for Small Mobiles (max-width: 480px) ---------- */
+@media (max-width: 480px) {
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero {
+    height: auto;
+    padding: 20px 10px;
+  }
+
+  .one {
+    font-size: 20px;
+  }
+
+  .two-span {
+    font-size: 12px;
+  }
+
+  textarea {
+    width: 95%;
+    height: 180px;
+  }
+
+  .user-Result.box,
+  .result-area {
+    width: 95%;
+    height: auto;
+  }
+
+  button {
+    font-size: 13px;
+    padding: 8px 15px;
+  }
+
+  .info-box {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .foot-heading h3 {
+    font-size: 18px;
+  }
+
+  .foot-bottom {
+    gap: 10px;
+  }
+
+  .nameplate {
+    text-align: center;
+    margin: 10px 0;
+  }
+}
