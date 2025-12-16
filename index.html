@@ -7,13 +7,17 @@
   <title>ToolVerse - Auth Page</title>
   <link rel="stylesheet" href="./auth-page/auth.css">
   <link rel="stylesheet" href="/responsive-files/responsive.css">
-</head> 
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
+
+
+</head>
 
 <body class="auth-page">
   <div class="main-Cont">
     <div class="background">
-<img src="https://i.ibb.co/21X9TVz9/noise-texture.png" alt="ToolVerse - Bg" border="0">
-    
+      <img src="https://i.ibb.co/21X9TVz9/noise-texture.png" alt="ToolVerse - Bg" border="0">
+
     </div>
 
     <div class="form-bg">
@@ -25,8 +29,8 @@
         <h3>Login</h3>
 
         <div class="input-box">
-          <label for="user-value">Username</label>
-          <input type="text" placeholder="username" id="user-value">
+          <label for="user-value">Email</label>
+          <input type="email" placeholder="username" id="user-value">
         </div>
 
         <div class="input-box">
@@ -58,6 +62,8 @@
     </div>
   </div>
 
+  <script src="./auth-page/firebase.js"></script>
   <script src="./auth-page/auth.js"></script>
 </body>
+
 </html>
