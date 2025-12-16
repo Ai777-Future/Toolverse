@@ -1363,8 +1363,8 @@
   }
 
   .background > img {
-    width: 52vw;
-    max-width: 850px;
+    width: 100%;
+    /* max-width: 850px; */
   }
 
   .content {
