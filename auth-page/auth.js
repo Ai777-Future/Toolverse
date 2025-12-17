@@ -110,3 +110,21 @@ googleBtn.addEventListener("click", () => {
       result.style.color = "red";
     });
 });
+
+
+// ⚫ GitHub login
+const githubBtn = document.getElementById("github-login");
+const githubProvider = new firebase.auth.GithubAuthProvider();
+
+githubBtn.addEventListener("click", () => {
+  firebase
+    .auth()
+    .signInWithPopup(githubProvider)
+    .then(() => {
+      window.location.href = "../home-page/index.html";
+    })
+    .catch((error) => {
+      result.innerHTML = error.message;
+      result.style.color = "red";
+    });
+});
