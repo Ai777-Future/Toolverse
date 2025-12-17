@@ -2023,6 +2023,11 @@
     padding: 30px 15px;
   }
 
+  .explain-sec > .item-reverse{
+  flex-direction: column-reverse;
+  display: flex;
+}
+
   .img-sec img {
     width: 95%;
     max-width: 280px;
