@@ -86,3 +86,27 @@ btn.addEventListener("click", function () {
       result.innerHTML = error.message;
     });
 });
+
+
+// 🔹 Google login button
+const googleBtn = document.getElementById("google-login");
+
+// 🔹 Google provider
+const provider = new firebase.auth.GoogleAuthProvider();
+
+googleBtn.addEventListener("click", () => {
+  firebase
+    .auth()
+    .signInWithPopup(provider)
+    .then((result) => {
+      // ✅ Successful login
+      result.user; // user object mil jata hai
+
+      window.location.href = "../home-page/index.html";
+    })
+    .catch((error) => {
+      console.error(error);
+      result.innerHTML = error.message;
+      result.style.color = "red";
+    });
+});
