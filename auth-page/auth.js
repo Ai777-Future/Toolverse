@@ -49,12 +49,13 @@ const userValue = document.getElementById("user-value");
 const userPassword = document.getElementById("user-pass");
 const btn = document.getElementById("Log-btn");
 const result = document.getElementById("result");
+const emailError = document.getElementById("email-error");
 
 btn.addEventListener("click", function () {
   const email = userValue.value;
   const password = userPassword.value;
 
-  // 🔎 Basic validation (tumhara hi logic, safe hai)
+  //  EMIAL LOGIC
   if (email === "" && password === "") {
     result.style.color = "red";
     result.innerHTML = "Please enter your email & password";

@@ -8,7 +8,7 @@
   <title>ToolVerse - Auth Page</title>
   <link rel="stylesheet" href="./auth-page/auth.css">
   <link rel="stylesheet" href="/responsive-files/responsive.css">
-  <link rel="icon" type="image/svg+xml" href="/assests/favicon.svg">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
 
@@ -32,12 +32,13 @@
 
         <div class="input-box">
           <label for="user-value">Email</label>
-          <input type="email" placeholder="Email" id="user-value" autocomplete="off">
+          <input type="email" placeholder="Email" id="user-value" autocomplete="off" required>
         </div>
+        <small id="email-error"></small>
 
         <div class="input-box">
           <label for="user-pass">Password</label>
-          <input type="password" placeholder="Password" id="user-pass" autocomplete="off">
+          <input type="password" placeholder="Password" id="user-pass" autocomplete="off" required>
         </div>
 
         <small style="float: right; color: #aaa; font-size: 11px; margin-bottom: 15px;">Forgot Password?</small>
